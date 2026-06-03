@@ -1,0 +1,29 @@
+{
+  "name": "panai--rainbow-loader",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "license": "Apache-2.0",
+  "description": "A five-arch animated rainbow loader component for React.",
+  "author": "AIA / ActiveInAI",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5177",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^5.0.0",
+    "typescript": "^6.0.3",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.2",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "jsdom": "^25.0.1",
+    "vitest": "^2.1.9"
+  }
+}
